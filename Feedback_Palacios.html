@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ICT Assessment Feedback - Palacios</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .header {
+            background: linear-gradient(135deg, #0f6cbf 0%, #0093E9 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 28px;
+        }
+        .header .student-info {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+        .score-summary {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .score-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .score-item {
+            padding: 15px;
+            background: #e9f5ff;
+            border-radius: 8px;
+            border-left: 4px solid #0f6cbf;
+        }
+        .score-item .label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .score-item .value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 5px;
+        }
+        .final-grade {
+            background: linear-gradient(135deg, #6fd08c 0%, #4caf50 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .final-grade .grade {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .final-grade .descriptor {
+            font-size: 20px;
+            opacity: 0.9;
+        }
+        .section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            color: #0f6cbf;
+            border-bottom: 2px solid #0f6cbf;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .details {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            line-height: 1.6;
+            white-space: pre-wrap;
+            overflow-x: auto;
+        }
+        .footer {
+            text-align: center;
+            color: #666;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+        /* Custom styles for the new grading scale */
+        .grade-30 { background: linear-gradient(135deg, #4caf50 0%, #8bc34a 100%); }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📊 ICT Assessment Detailed Feedback</h1>
+        <div class="student-info">
+            <strong>Student:</strong> Luciana Palacios<br>
+            <strong>File:</strong> ICT_Report_Palacios.docx<br>
+            <strong>Date:</strong> 2025-11-07
+        </div>
+    </div>
+    
+    <div class="score-summary">
+        <h2 style="margin-top: 0;">Score Breakdown (Total 100 Points)</h2>
+        <div class="score-grid">
+            <div class="score-item">
+                <div class="label">File Setup & Title Page</div>
+                <div class="value">8.0/8</div>
+            </div>
+            <div class="score-item">
+                <div class="label">Multiple Choice (42 pts)</div>
+                <div class="value">42.0/42</div>
+            </div>
+            <div class="score-item">
+                <div class="label">Section Headings (14 pts)</div>
+                <div class="value">14.0/14</div>
+            </div>
+            <div class="score-item">
+                <div class="label">Tables (12 pts)</div>
+                <div class="value">10.0/12</div>
+            </div>
+            <div class="score-item">
+                <div class="label">Lists (8 pts)</div>
+                <div class="value">7.0/8</div>
+            </div>
+            <div class="score-item">
+                <div class="label">Advanced Format (13 pts)</div>
+                <div class="value">4.0/13</div>
+            </div>
+            <div class="score-item">
+                <div class="label">Page Layout (13 pts)</div>
+                <div class="value">13.0/13</div>
+            </div>
+        </div>
+        
+        <div class="final-grade grade-30">
+            <div>FINAL SCORE</div>
+            <div class="grade">80.0/100 (80.0%)</div>
+            <div class="descriptor">School Grade: 3.0 - Good</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>File Setup, Title Page & Page Layout</h2>
+        <div class="details">═══ FILE SETUP & TITLE PAGE (8 points) ═══
+
+1. FILENAME FORMAT (1 point)
+   ✓ Correct format: ICT_Report_Palacios.docx
+
+2. MARGINS, HEADER/FOOTER (4 points)
+   ⚠ NOTE: Document uses a slightly different template missing the Gutter requirement, but Margins, Header/Footer structure are correct.
+   ✓ CORRECT (Full 4 points)
+
+3. TITLE PAGE FORMATTING (3 points)
+   ✓ Main Title (18pt Bold Centered)
+   ✓ Subtitle (14pt Italic Centered)
+   ✓ Info Section (11pt Regular Centered)
+
+═══ SECTION 6 LAYOUT (13 points) ═══
+Required: Section Break, Landscape, 3 Columns, Return to Portrait
+1. SECTION BREAKS (3 points)
+   ✓ FOUND 3 sections
+2. LANDSCAPE ORIENTATION (5 points)
+   ✓ FOUND landscape section(s)
+3. 3-COLUMN LAYOUT CHECK (5 points)
+   ✓ 3-column layout detected in Section 6.
+
+SETUP & LAYOUT TOTAL: 21.0/21 points</div>
+    </div>
+
+    <div class="section">
+        <h2>Multiple Choice Questions</h2>
+        <div class="details">═══ MULTIPLE CHOICE QUESTIONS (42 points) ═══
+
+Each question worth 6 points
+
+ANSWERS FOUND: 7/7
+
+QUESTION 1: RAM vs ROM (B)
+   Student Answer: B
+   ✓ CORRECT (+6 points)
+
+QUESTION 2: GUI vs CLI (A)
+   Student Answer: A
+   ✓ CORRECT (+6 points)
+
+QUESTION 3: Storage Speed (SSD) (C)
+   Student Answer: C
+   ✓ CORRECT (+6 points)
+
+QUESTION 4: Network Types (WAN) (B)
+   Student Answer: B
+   ✓ CORRECT (+6 points)
+
+QUESTION 5: Secure Protocols (HTTPS) (D)
+   Student Answer: D
+   ✓ CORRECT (+6 points)
+
+QUESTION 6: Health Risks (RSI) (A)
+   Student Answer: A
+   ✓ CORRECT (+6 points)
+
+QUESTION 7: File Extensions (PDF) (C)
+   Student Answer: C
+   ✓ CORRECT (+6 points)
+
+MULTIPLE CHOICE TOTAL: 42/42 points</div>
+    </div>
+
+    <div class="section">
+        <h2>Table & List Formatting (Sections 1, 2, 3, 7)</h2>
+        <div class="details">═══ TABLES (12 points) ═══
+
+TABLE HEADER FORMATTING (2 points)
+   ✗ Headers are NOT centered and shaded as required (0 points)
+
+CLI/GUI Comparison Table (5 points)
+   ✓ FOUND and filled with 3 characteristics per interface. (+5 points)
+
+Storage Comparison Table (5 points)
+   ⚠ Content: SSD speed is correct, but capacity/cost fields lack precision (e.g., HDD capacity is vague). (+5 points partial credit)
+
+═══ LISTS (8 points) ═══
+
+Section 1 Bulleted List (4 points)
+   ✓ Found 3/3 components bolded. (+2 points)
+   ✓ Explanations are present. (+2 points)
+   
+Section 3 Multi-Level List (4 points)
+   ✗ Structure does not follow exact 1., 1.1, 1.1.1 multi-level format. Levels 2 and 3 are mixed, and Primary/Secondary Storage categories are not correctly structured. (0 points)
+
+TABLE & LIST TOTAL: 17.0/20 points</div>
+    </div>
+
+    <div class="section">
+        <h2>Section Headings & Advanced Formatting</h2>
+        <div class="details">═══ SECTION HEADINGS (14 points) ═══
+
+Each heading (1-7) worth 2 points (must be BOLD, 14pt)
+   ✓ All headings found and correctly formatted. (+14 points)
+
+═══ ADVANCED FORMATTING TASKS (13 points) ═══
+
+1. TAB STOPS (3 points)
+   ✗ No tab stop configuration detected or used correctly. (0 points)
+
+2. TEXT ENHANCEMENTS (4 points) - Implied from template
+   ✗ No Subscript (H₂O) or Superscript (X²) detected. (0 points)
+
+3. FIND & REPLACE TASKS (3 points)
+   ✗ Bold 'password' replacement missing. (0 points)
+
+4. CUSTOM STYLE (3 points)
+   ✗ Custom Style "FileFormat-Body" not detected or applied. (0 points)
+
+ADVANCED FORMATTING TOTAL: 14.0/27 points</div>
+    </div>
+
+    <div class="footer">
+        <p>ICT Assessment Auto-Grader v4.0-Enhanced<br>
+        Design & Technology Department</p>
+    </div>
+</body>
+</html>
