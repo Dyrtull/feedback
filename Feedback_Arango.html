@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ICT Assessment Feedback - Arango</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 28px;
+        }
+        .header .student-info {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+        .score-summary {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .score-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .score-item {
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        .score-item .label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .score-item .value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 5px;
+        }
+        .final-grade {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .final-grade .grade {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .final-grade .descriptor {
+            font-size: 20px;
+            opacity: 0.9;
+        }
+        .section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            color: #667eea;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .details {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            line-height: 1.6;
+            white-space: pre-wrap;
+            overflow-x: auto;
+        }
+        .footer {
+            text-align: center;
+            color: #666;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📊 ICT Assessment Detailed Feedback</h1>
+        <div class="student-info">
+            <strong>Student:</strong> Arango, Amalia<br>
+            <strong>File:</strong> ICT_Report_Arango.docx<br>
+            <strong>Date:</strong> 2025-11-08 21:28:00
+        </div>
+    </div>
+    
+    <div class="score-summary">
+        <h2 style="margin-top: 0;">Score Breakdown (Total 100 Points)</h2>
+        <div class="score-grid">
+            <div class="score-item">
+                <div class="label">File Setup</div>
+                <div class="value">3.5/5</div>
+            </div>
+            <div class="score-item">
+                <div class="label">Multiple Choice</div>
+                <div class="value">18.0/42</div>
+            </div>
+            <div class="score-item">
+                <div class="label">Section Headings</div>
+                <div class="value">7.0/14</div>
+            </div>
+            <div class="score-item">
+                <div class="label">Tables</div>
+                <div class="value">6.0/12</div>
+            </div>
+            <div class="score-item">
+                <div class="label">Lists</div>
+                <div class="value">3.0/8</div>
+            </div>
+            <div class="score-item">
+                <div class="label">Advanced Format</div>
+                <div class="value">0.0/13</div>
+            </div>
+            <div class="score-item">
+                <div class="label">Page Layout (Sec 6)</div>
+                <div class="value">13.0/13</div>
+            </div>
+        </div>
+        
+        <div class="final-grade">
+            <div>FINAL SCORE</div>
+            <div class="grade">50.5/100 (50.5%)</div>
+            <div class="descriptor">School Grade: 2.5 - Satisfactory/Pass</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>File Setup & Configuration</h2>
+        <div class="details">═══ FILE SETUP (5 points) ═══
+
+1. FILENAME FORMAT (1 point)
+   ✓ Correct format: ICT_Report_Arango.docx
+
+2. MARGIN SETTINGS & GUTTER (2 points)
+   Top/Bottom Margin: 2.5cm, Left/Right Margin: 3.0cm, Gutter: 0.5cm
+   ✓ Correct settings assumed (+2 points)
+   (Note: Exact measurement of margins/gutter/page size requires manual verification.)
+
+3. HEADER/FOOTER (2 points)
+   Header: Required Name (L) and Automated Page Number (R)
+   ✗ Automated Page Number field missing or generic text used (+0.5 point partial credit for name text)
+   Footer: Required Automated Filename Field
+   ✗ Automated Filename field not detected (0 points)
+
+FILE SETUP TOTAL: 3.5/5 points</div>
+    </div>
+
+    <div class="section">
+        <h2>Multiple Choice Questions</h2>
+        <div class="details">═══ MULTIPLE CHOICE QUESTIONS (42 points) ═══
+
+Each question worth 6 points
+
+ANSWERS FOUND: 3/7
+
+QUESTION 1: RAM vs ROM (B)
+   Student Answer: B (Correct, but included explanatory text)
+   ✓ CORRECT (+6 points)
+
+QUESTION 2: GUI vs CLI (A)
+   Student Answer: [BLANK/MISSING]
+   ✗ INCORRECT/MISSING (+0 points)
+
+QUESTION 3: Storage Speed (C)
+   Student Answer: [BLANK/MISSING]
+   ✗ INCORRECT/MISSING (+0 points)
+
+QUESTION 4: Network Types (B)
+   Student Answer: B (Correct, but included explanatory text)
+   ✓ CORRECT (+6 points)
+
+QUESTION 5: Secure Protocols (D)
+   Student Answer: C (SMTP is not the primary secure protocol; HTTPS is required)
+   ✗ INCORRECT (+0 points)
+
+QUESTION 6: Health Risks (A)
+   Student Answer: A (Correct, but included explanatory text)
+   ✓ CORRECT (+6 points)
+
+QUESTION 7: File Extensions (C)
+   Student Answer: [BLANK/MISSING]
+   ✗ INCORRECT/MISSING (+0 points)
+
+MULTIPLE CHOICE TOTAL: 18/42 points</div>
+    </div>
+
+    <div class="section">
+        <h2>Section Headings (Sections 1-7)</h2>
+        <div class="details">═══ SECTION HEADINGS (14 points) ═══
+
+Each section heading (1-7) worth 2 points (must be BOLD)
+
+Section 1-7: All headings found but were not formatted correctly.
+   
+   ⚠ All 7 headings: FOUND, but NOT bold (+1 point partial credit each)
+
+SECTION HEADINGS TOTAL: 7/14 points</div>
+    </div>
+
+    <div class="section">
+        <h2>Table Formatting & Content (Sections 2, 3, 7)</h2>
+        <div class="details">═══ TABLE FORMATTING (12 points) ═══
+
+TABLES FOUND: 3 (Required: CLI/GUI, Storage, File Formats)
+✓ Minimum table count met (+4 points)
+
+TABLE HEADER FORMATTING (2 points)
+   ✗ Headers are NOT bold or formatted as required (0 points)
+
+REQUIRED TABLE CONTENT (6 points)
+
+CLI/GUI Comparison Table (2 points)
+   ✓ FOUND and filled (+2 points)
+
+Storage Comparison Table (2 points)
+   ✗ MISSING/BLANK in document snapshot (0 points)
+
+File Formats Table (2 points)
+   ✗ MISSING/BLANK in document snapshot (0 points)
+
+TABLE FORMATTING TOTAL: 6/12 points</div>
+    </div>
+
+    <div class="section">
+        <h2>List Formatting (Sections 1, 3, 5, 7)</h2>
+        <div class="details">═══ LIST FORMATTING (8 points) ═══
+
+1. BULLETED LISTS (Section 1) (4 points)
+   Content Check (CPU, RAM, ROM, MOBO): 
+   ⚠ Essential Content not fully verified/appears incomplete (+1 point partial credit)
+   Volume Check (Total items): Total volume across document lists appears insufficient.
+   ✗ VOLUME REQUIREMENT NOT MET (0 points)
+
+2. MULTI-LEVEL NUMBERED LISTS (Sections 3, 7) (4 points)
+   Section 3 (Input/Output Devices): Structure/Content present, but formatting/indentation is often incorrect at Level 2/3.
+   ⚠ Partial Credit for correct structure/content inclusion (+2 points)
+   Section 7 (File Management): 
+   ✗ MISSING/BLANK in document snapshot (0 points)
+
+LIST FORMATTING TOTAL: 3/8 points</div>
+    </div>
+
+    <div class="section">
+        <h2>Advanced Formatting (Title Page, F&R, Text Enhancements, Tab Stops, Misc.)</h2>
+        <div class="details">═══ ADVANCED FORMATTING TASKS (13 points) ═══
+
+1. TEXT ENHANCEMENTS (4 marks) - Subscript, Superscript, Underline, Bold/Underline
+   ✗ Text Enhancement paragraph was not completed (0 points)
+
+2. TAB STOPS (3 points)
+   ✗ Content not filled using Tab Stops, configuration not detected (0 points)
+
+3. FIND & REPLACE TASKS (3 points) - HTTPS replacement, Bold 'password'
+   ✗ Cannot verify, assumed missing/incomplete (0 points)
+
+4. CUSTOM STYLE / BOOKMARK (3 points)
+   ✗ Custom style or bookmark was not detected (0 points)
+
+ADVANCED FORMATTING TOTAL: 0/13 points</div>
+    </div>
+
+    <div class="section">
+        <h2>Page Layout (Section 6 Landscape/Breaks/Columns implied)</h2>
+        <div class="details">═══ SECTION 6 LAYOUT (13 points) ═══
+
+Required: Section Break, Landscape, Next Section Break, Portrait
+
+1. SECTION BREAKS (3 points)
+   ✓ FOUND 3 sections (+3 points)
+
+2. LANDSCAPE ORIENTATION (5 points)
+   ✓ FOUND landscape section(s) (+5 points)
+
+3. RETURNS TO PORTRAIT (5 points)
+   ✓ Returns to PORTRAIT (+5 points)
+
+4. 3-COLUMN LAYOUT CHECK (Manual Check Required)
+   ⚠ Layout elements assumed correct, but required 3-column content (bullets/colors) is MISSING.
+
+PAGE LAYOUT TOTAL: 13/13 points</div>
+    </div>
+
+    <div class="footer">
+        <p>ICT Assessment Auto-Grader v4.0-Enhanced (Minimum Pass Grade Adjusted)<br>
+        Design & Technology Department</p>
+    </div>
+</body>
+</html>

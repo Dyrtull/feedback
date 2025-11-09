@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ICT Assessment Feedback - Palomares</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 28px;
+        }
+        .header .student-info {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+        .score-summary {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .score-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .score-item {
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        .score-item .label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .score-item .value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 5px;
+        }
+        .final-grade {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .final-grade .grade {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .final-grade .descriptor {
+            font-size: 20px;
+            opacity: 0.9;
+        }
+        .section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            color: #667eea;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .details {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            line-height: 1.6;
+            white-space: pre-wrap;
+            overflow-x: auto;
+        }
+        .footer {
+            text-align: center;
+            color: #666;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📊 ICT Assessment Detailed Feedback</h1>
+        <div class="student-info">
+            <strong>Student:</strong> Palomares<br>
+            <strong>File:</strong> ICT_Report_Palomares.docx<br>
+            <strong>Date:</strong> 2025-11-08 20:22:24
+        </div>
+    </div>
+    
+    <div class="score-summary">
+        <h2 style="margin-top: 0;">Score Breakdown</h2>
+        <div class="score-grid">
+            <div class="score-item">
+                <div class="label">File Setup</div>
+                <div class="value">5.0/5</div>
+            </div>
+            <div class="score-item">
+                <div class="label">Multiple Choice</div>
+                <div class="value">36.0/42</div>
+            </div>
+            <div class="score-item">
+                <div class="label">Tables</div>
+                <div class="value">12.0/12</div>
+            </div>
+            <div class="score-item">
+                <div class="label">Lists</div>
+                <div class="value">4.0/8</div>
+            </div>
+            <div class="score-item">
+                <div class="label">Section Headings</div>
+                <div class="value">14.0/14</div>
+            </div>
+            <div class="score-item">
+                <div class="label">Advanced Features</div>
+                <div class="value">6.0/9</div>
+            </div>
+            <div class="score-item">
+                <div class="label">Find & Replace</div>
+                <div class="value">1.5/3</div>
+            </div>
+            <div class="score-item">
+                <div class="label">Page Layout</div>
+                <div class="value">7.0/7</div>
+            </div>
+        </div>
+        
+        <div class="final-grade">
+            <div>FINAL SCORE</div>
+            <div class="grade">85.5/100 (85.5%)</div>
+            <div class="descriptor">School Grade: 4.0 - Excellent</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>File Setup</h2>
+        <div class="details">═══ FILE SETUP (5 points) ═══
+
+1. FILENAME FORMAT (1 point)
+   ✓ Correct format: ICT_Report_Palomares.docx
+   Pattern: ICT_Report_[LastName].docx
+
+2-5. MARGIN SETTINGS (4 points)
+   2. Top Margin:
+      Expected: 2.5cm (±0.2cm tolerance)
+      Actual: 2.31cm
+      ✓ CORRECT (within acceptable range)
+
+   3. Bottom Margin:
+      Expected: 2.5cm (±0.2cm tolerance)
+      Actual: 2.31cm
+      ✓ CORRECT (within acceptable range)
+
+   4. Left Margin:
+      Expected: 3.0cm (±0.2cm tolerance)
+      Actual: 3.00cm
+      ✓ CORRECT (within acceptable range)
+
+   5. Right Margin:
+      Expected: 3.0cm (±0.2cm tolerance)
+      Actual: 3.00cm
+      ✓ CORRECT (within acceptable range)
+</div>
+    </div>
+
+    <div class="section">
+        <h2>Multiple Choice Questions</h2>
+        <div class="details">═══ MULTIPLE CHOICE QUESTIONS (42 points) ═══
+
+Each question worth 6 points
+
+ANSWERS FOUND: 7/7
+
+QUESTION 1: RAM vs ROM (Hardware)
+   Correct Answer: B
+   Student Answer: B
+   ✓ CORRECT (+6 points)
+
+QUESTION 2: GUI vs CLI (Operating Systems)
+   Correct Answer: A
+   Student Answer: A
+   ✓ CORRECT (+6 points)
+
+QUESTION 3: Storage Speed (HDD/SSD/DVD)
+   Correct Answer: C
+   Student Answer: C
+   ✓ CORRECT (+6 points)
+
+QUESTION 4: Network Types (LAN/WAN)
+   Correct Answer: B
+   Student Answer: B
+   ✓ CORRECT (+6 points)
+
+QUESTION 5: Secure Protocols (HTTPS)
+   Correct Answer: D
+   Student Answer: C
+   ✗ INCORRECT (0 points)
+   Review: Secure Protocols (HTTPS)
+
+QUESTION 6: Health Risks (RSI)
+   Correct Answer: A
+   Student Answer: A
+   ✓ CORRECT (+6 points)
+
+QUESTION 7: File Extensions (PDF)
+   Correct Answer: C
+   Student Answer: C
+   ✓ CORRECT (+6 points)
+
+MULTIPLE CHOICE TOTAL: 36/42 points</div>
+    </div>
+
+    <div class="section">
+        <h2>Table Formatting</h2>
+        <div class="details">═══ TABLE FORMATTING (12 points) ═══
+
+TABLES FOUND: 4
+Required: Minimum 3 tables
+
+✓ Minimum table count met (+4 points)
+
+TABLE HEADER FORMATTING (2 points)
+   ✓ Headers are BOLD (+2 points)
+   Bold detected in 2 header cell(s)
+
+REQUIRED TABLE CONTENT (6 points)
+
+CLI/GUI Comparison Table (2 points)
+   Location: Section 2
+   Requirement: 3 rows × 2 columns comparing CLI and GUI features
+   ✓ FOUND in Table #1 (+2 points)
+   Dimensions: 3 rows × 2 columns
+
+Storage Comparison Table (2 points)
+   Location: Section 3
+   Requirement: 4 rows × 4 columns with storage types, speed, capacity, cost
+   ✓ FOUND in Table #2 (+2 points)
+   Dimensions: 4 rows × 4 columns
+
+File Formats Table (2 points)
+   Location: Section 7
+   Requirement: Minimum 6 rows × 3 columns with file extensions
+   ✓ FOUND in Table #3 (+2 points)
+   Dimensions: 7 rows × 3 columns
+
+TABLE FORMATTING TOTAL: 12/12 points</div>
+    </div>
+
+    <div class="section">
+        <h2>List Formatting</h2>
+        <div class="details">═══ LIST FORMATTING (8 points) ═══
+
+1. BULLETED LISTS (4 points)
+   Required: Minimum 3 bulleted items
+   Found: 0 bulleted items
+   ✗ INSUFFICIENT (0/3)
+   Action: Add 3 more bulleted item(s)
+   Tip: Home tab → Bullets button
+
+2. NUMBERED LISTS (4 points)
+   Required: Minimum 2 numbered items
+   Found: 4 numbered items
+   Examples found:
+      • Line 13: 1. Save your file as: ICT_Report_[YourLastName].docx
+      • Line 15: 2. Page Setup:
+      • Line 19: 3. Header (must contain):
+   ✓ REQUIREMENT MET (+4 points)
+
+LIST FORMATTING TOTAL: 4/8 points</div>
+    </div>
+
+    <div class="section">
+        <h2>Section Headings</h2>
+        <div class="details">═══ SECTION HEADINGS (14 points) ═══
+
+Each section heading worth 2 points (must be 14pt Bold)
+
+1. HARDWARE AND SOFTWARE
+   ✓ Found on line 36
+   Text: "SECTION 1: HARDWARE AND SOFTWARE SYSTEMS"
+   ✓ Formatting: BOLD (+2 points)
+
+2. OPERATING SYSTEMS
+   ✓ Found on line 63
+   Text: "SECTION 2: OPERATING SYSTEMS AND COMPUTER TYPES"
+   ✓ Formatting: BOLD (+2 points)
+
+3. INPUT, OUTPUT, AND STORAGE
+   ✓ Found on line 83
+   Text: "SECTION 3: INPUT, OUTPUT, AND STORAGE DEVICES"
+   ✓ Formatting: BOLD (+2 points)
+
+4. COMPUTER NETWORKS
+   ✓ Found on line 115
+   Text: "SECTION 4: COMPUTER NETWORKS"
+   ✓ Formatting: BOLD (+2 points)
+
+5. NETWORK SECURITY
+   ✓ Found on line 133
+   Text: "SECTION 5: NETWORK SECURITY AND COMMUNICATION"
+   ✓ Formatting: BOLD (+2 points)
+
+6. EFFECTS OF INFORMATION TECHNOLOGY
+   ✓ Found on line 162
+   Text: "SECTION 6: EFFECTS OF INFORMATION TECHNOLOGY"
+   ✓ Formatting: BOLD (+2 points)
+
+7. COPYRIGHT AND FILE MANAGEMENT
+   ✓ Found on line 210
+   Text: "SECTION 7: COPYRIGHT AND FILE MANAGEMENT"
+   ✓ Formatting: BOLD (+2 points)
+
+SECTION HEADINGS TOTAL: 14/14 points</div>
+    </div>
+
+    <div class="section">
+        <h2>Advanced Features</h2>
+        <div class="details">═══ ADVANCED FEATURES (9 points) ═══
+
+1. HYPERLINKS (3 points)
+   Required: At least one working hyperlink (Section 5)
+   ✗ NOT FOUND (0 points)
+   Action: Insert → Link (or Ctrl+K)
+   Location: Section 5 (Network Security)
+
+2. BOOKMARK 'networks' (3 points)
+   Required: Bookmark named 'networks' in Section 4
+   ✓ FOUND (+3 points)
+   Bookmark 'networks' exists in document
+
+3. CUSTOM STYLE 'FileFormat-Body' (3 points)
+   Required: Custom style created and applied in Section 7
+   ✓ FOUND (+3 points)
+   Custom style exists in document
+
+ADVANCED FEATURES TOTAL: 6/9 points</div>
+    </div>
+
+    <div class="section">
+        <h2>Find & Replace Tasks</h2>
+        <div class="details">═══ FIND & REPLACE TASKS (3 points) ═══
+
+Critical automated tasks - must be completed exactly
+
+1. BOLD 'password' (1.5 points)
+   Task: Find all instances of 'password' → Replace with BOLD 'password'
+   Location: Section 5 (Network Security)
+   Instances found: 3
+   Locations:
+      • Line 154 (not bold)
+      • Line 155 (not bold)
+      • Line 271 (not bold)
+   ✗ NOT FOUND or NOT BOLD (0 points)
+   Found 3 instance(s) but NONE are bold
+   Action: Home → Find & Replace (Ctrl+H)
+   Find: password → Replace: password (click Format → Bold)
+
+2. HTTPS Text (1.5 points)
+   Task: Find all 'HTTP' → Replace with 'HTTPS'
+   Location: Section 5 (Network Security)
+   HTTPS found: 4 instance(s)
+   HTTP found: 2 instance(s)
+   ✓ FOUND 4 instance(s) (+1.5 points)
+   Find & Replace appears to be completed
+   ⚠ Warning: 2 'HTTP' instance(s) still remain
+   You may have missed some instances
+
+FIND & REPLACE TOTAL: 1.5/3 points
+
+⚠ IMPORTANT: Find & Replace tasks are auto-graded
+   Make sure you complete BOTH tasks exactly as specified</div>
+    </div>
+
+    <div class="section">
+        <h2>Page Layout</h2>
+        <div class="details">═══ PAGE LAYOUT (7 points) ═══
+
+DOCUMENT SECTIONS: 4
+Required: Multiple sections (minimum 2)
+
+1. SECTION BREAKS (3 points)
+   Required: Multiple sections with section breaks
+   Why: To change orientation for Section 6
+   ✓ FOUND 4 sections (+3 points)
+   Section breaks properly implemented
+
+   Section Details:
+      Section 1: Portrait
+      Section 2: Landscape
+      Section 3: Landscape
+      Section 4: Landscape
+
+2. LANDSCAPE ORIENTATION (4 points)
+   Required: Section 6 must be in landscape orientation
+   Critical: Section 6 only, other sections portrait
+   ✓ FOUND landscape section(s) (+4 points)
+   Landscape: Section(s) 2, 3, 4
+   Portrait: Section(s) 1
+
+   ⚠ Note: Multiple landscape sections detected
+   Typically only Section 6 should be landscape
+
+PAGE LAYOUT TOTAL: 7/7 points</div>
+    </div>
+
+    <div class="footer">
+        <p>ICT Assessment Auto-Grader v3.0<br>
+        Design & Technology Department</p>
+    </div>
+</body>
+</html>
